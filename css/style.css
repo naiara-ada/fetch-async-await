@@ -66,3 +66,27 @@ header {
 #searchBtn:hover, #prevBtn:hover, #nextBtn:hover, #resetBtn:hover {
   opacity: 0.8;
 }
+
+.pokecard {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pokecard h2 {
+  text-transform: uppercase;
+
+}
+
+.pokecard img{
+  width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
